@@ -5,12 +5,12 @@ looking to build AI Powered Personalized Characters
 ## Live Web Demo ##
 ![figure](images/img.png)
 
-[Jeanie](https://messengerx.io/jeanie) is a GPT-J powered virtual girlfriend based on this repository
+[Jeanie](https://buildgpt.ai/jeanie) is a GPT-J powered virtual girlfriend based on this repository
 
 ## Requirements for running it locally on laptop ##
 * Windows / Mac / Linux with Git installed
 * Python 3.5+
-* MessengerX.io API Token - FREE for Indie Developers
+* buildgpt.ai API Token - FREE for Indie Developers
 * Ngrok for Tunneling
 * Desktop / Laptop with a minimum of 16GB RAM 
 * GPU is required for faster inference
@@ -61,9 +61,9 @@ MAX_LENGTH="50"
 For better understanding of the above GPT-J parameters, check out the [nlpcloud.io](https://docs.nlpcloud.io/#generation) docs
 
 
-## Get MessengerX.io API Key ##
-* Get your FREE Developer API Token via [MessengerX.io](https://portal.messengerx.io), replace it in the ```.env``` file under the entry ```API_TOKEN```
-* MessengerX.io allows you to build and integrate a custom chatbot in your website or app
+## Get buildgpt.ai API Key ##
+* Get your FREE Developer API Token via [buildgpt.ai](https://portal.buildgpt.ai), replace it in the ```.env``` file under the entry ```API_TOKEN```
+* buildgpt.ai allows you to build and integrate a custom chatbot in your website or app
 
 
 ## Get NLPCloud.io API Key (Recommended for Production) ##
@@ -101,7 +101,7 @@ ngrok http 5000
 ```
 
 ### Update your webhook ###
-Update your bot Webhook URL at [MessengerX.io Portal](https://portal.messengerx.io) with the url provided as shown below to continue development
+Update your bot Webhook URL at [buildgpt.ai Portal](https://portal.buildgpt.ai) with the url provided as shown below to continue development
 ```
 If you use [Ngrok.io](https://ngrok.io), your webhook URL would be of the format as in the example below
 https://1234-115-187-40-104.ngrok.io/machaao/hook
@@ -109,7 +109,7 @@ https://1234-115-187-40-104.ngrok.io/machaao/hook
 ![figure](https://github.com/machaao/machaao-py/raw/master/images/mx_screenshot.png?raw=true)
 
 ### Test your bot:
-Visit: ```https://messengerx.io/<bot-name>```
+Visit: ```https://buildgpt.ai/<bot-name>```
 
 ## Remote Setup (Heroku) ##
 
@@ -138,13 +138,13 @@ heroku logs --tail
 ```
 
 ### Update your webhook ###
-Update your bot Webhook URL at [MessengerX.io Portal](https://portal.messengerx.io) with the heroku app url
+Update your bot Webhook URL at [buildgpt.ai Portal](https://portal.buildgpt.ai) with the heroku app url
 ```
 Webhook Url: <YOUR-HEROKU-APP-URL>/machaao/hook
 ```
 
 ### Test your bot:
-Visit: ```https://messengerx.io/<your-character-name>```
+Visit: ```https://buildgpt.ai/<your-character-name>```
 
 ### Known Issues (on M1+ Macs)
 ```
@@ -159,4 +159,3 @@ pip3 install --pre torch torchvision torchaudio --index-url https://download.pyt
 
 ## Notes / Additional Resources ##
 * Please note that this document isn't meant to be used as a guide for production environment setup.
-* Reach out to us on [Twitter](https://twitter.com/messengerxio) for any queries
