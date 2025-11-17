@@ -3,8 +3,6 @@ The intent of this template is to serve as a quick intro guide for fellow develo
 looking to build AI Powered Personalized Characters
 
 ## Live Web Demo ##
-![figure](images/img.png)
-
 [Jeanie](https://buildgpt.ai/jeanie) is a GPT-J powered virtual girlfriend based on this repository
 
 ## Requirements for running it locally on laptop ##
